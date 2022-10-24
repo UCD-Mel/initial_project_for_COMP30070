@@ -1,14 +1,16 @@
 
-class GreeterSuite extends munit.FunSuite {
+import org.scalatest.funsuite.AnyFunSuite
+
+class GreeterSuite extends AnyFunSuite {
   test("hi returns correct string") {
     val greeter = Greeter("Jack")
     val hiMsg = greeter.hi
-    assertEquals(hiMsg, "hi Jack")
+    assert(hiMsg === "hi Jack")
   }
   
   test("bye returns correct string") {
     val greeter = Greeter("Aoife")
     val hiMsg = greeter.bye
-    assertEquals(hiMsg, "bye Aoife")
+    assert(hiMsg === "bye Aoife")
   }
 }

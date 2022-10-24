@@ -1,4 +1,4 @@
-## COMP30070 Assignment1 2022
+## COMP30070 Assignment #2 2022 Card Game
 
 ### What I Achieved
 
@@ -6,4 +6,4 @@ Write a short note here to describe what you achieved, e.g. "all works correctly
 
 ### Program Design
 
-If you want to add some detail on design decisions you made, do so here.
+If you want to add some detail on design decisions you made, please do so here.
